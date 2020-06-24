@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATECC608A
+D ATECC608A Cryptographic coprocessor
+$ENDCMP
+#
 $CMP GD25Qxx
 D GigaDevice 3.3V Uniform Sector Dual and Quad Serial Flash
 K FLASH SPI memory
@@ -14,6 +18,11 @@ $CMP ICE40UP5K-SG48ITR
 D iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN
 K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
+$ENDCMP
+#
+$CMP INA219
+D INA219 Zero Drift Bi-Directional Current/Power Monitor
+K Current,Power,I2C
 $ENDCMP
 #
 #End Doc Library
