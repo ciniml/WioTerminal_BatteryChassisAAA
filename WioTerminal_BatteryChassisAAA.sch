@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:WioTerminal_BatteryChassisAAA-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -19,7 +20,7 @@ U 1 1 5B8C50EC
 P 2850 1400
 F 0 "MH4" H 2950 1446 50  0000 L CNN
 F 1 "Corner" H 2950 1355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 2850 1400 50  0001 C CNN
+F 2 "local:MountingHole_2.2mm_M2_DIN965_Mask" H 2850 1400 50  0001 C CNN
 F 3 "~" H 2850 1400 50  0001 C CNN
 	1    2850 1400
 	1    0    0    -1  
@@ -30,7 +31,7 @@ U 1 1 5B8C536E
 P 2850 1200
 F 0 "MH3" H 2950 1246 50  0000 L CNN
 F 1 "Corner" H 2950 1155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 2850 1200 50  0001 C CNN
+F 2 "local:MountingHole_2.2mm_M2_DIN965_Mask" H 2850 1200 50  0001 C CNN
 F 3 "~" H 2850 1200 50  0001 C CNN
 	1    2850 1200
 	1    0    0    -1  
@@ -41,7 +42,7 @@ U 1 1 5B8C53DD
 P 2850 1000
 F 0 "MH2" H 2950 1046 50  0000 L CNN
 F 1 "Corner" H 2950 955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 2850 1000 50  0001 C CNN
+F 2 "local:MountingHole_2.2mm_M2_DIN965_Mask" H 2850 1000 50  0001 C CNN
 F 3 "~" H 2850 1000 50  0001 C CNN
 	1    2850 1000
 	1    0    0    -1  
@@ -52,7 +53,7 @@ U 1 1 5B8C5425
 P 2850 800
 F 0 "MH1" H 2950 846 50  0000 L CNN
 F 1 "Corner" H 2950 755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 2850 800 50  0001 C CNN
+F 2 "local:MountingHole_2.2mm_M2_DIN965_Mask" H 2850 800 50  0001 C CNN
 F 3 "~" H 2850 800 50  0001 C CNN
 	1    2850 800 
 	1    0    0    -1  
@@ -429,7 +430,7 @@ U 1 1 5EC74781
 P 7700 2500
 F 0 "TP3" H 7758 2620 50  0000 L CNN
 F 1 "+5V" H 7758 2529 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7900 2500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7900 2500 50  0001 C CNN
 F 3 "~" H 7900 2500 50  0001 C CNN
 	1    7700 2500
 	1    0    0    -1  
@@ -443,7 +444,7 @@ U 1 1 5EC74C2D
 P 7700 2850
 F 0 "TP4" H 7758 2970 50  0000 L CNN
 F 1 "+5V-GND" H 7758 2879 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7900 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7900 2850 50  0001 C CNN
 F 3 "~" H 7900 2850 50  0001 C CNN
 	1    7700 2850
 	1    0    0    -1  
@@ -465,7 +466,7 @@ U 1 1 5EC74D02
 P 3250 2500
 F 0 "TP1" H 3308 2620 50  0000 L CNN
 F 1 "BAT" H 3308 2529 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3450 2500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3450 2500 50  0001 C CNN
 F 3 "~" H 3450 2500 50  0001 C CNN
 	1    3250 2500
 	1    0    0    -1  
@@ -476,7 +477,7 @@ U 1 1 5EC74DEF
 P 3250 2800
 F 0 "TP2" H 3308 2920 50  0000 L CNN
 F 1 "BAT-GND" H 3308 2829 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3450 2800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3450 2800 50  0001 C CNN
 F 3 "~" H 3450 2800 50  0001 C CNN
 	1    3250 2800
 	1    0    0    -1  
@@ -493,7 +494,7 @@ F 3 "" H 3250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L local:INA219 U1
+L local:INA219AIDCN U1
 U 1 1 5EC786DE
 P 3850 4150
 F 0 "U1" H 3500 4600 50  0000 C CNN
@@ -917,7 +918,7 @@ U 1 1 5ED1234E
 P 1850 2500
 F 0 "J2" H 1956 2678 50  0000 C CNN
 F 1 "Ext. BAT" H 1956 2587 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 1850 2500 50  0001 C CNN
+F 2 "local:PinHeader_1x02_P2.54mm_Horizontal" H 1850 2500 50  0001 C CNN
 F 3 "~" H 1850 2500 50  0001 C CNN
 	1    1850 2500
 	1    0    0    -1  
@@ -1091,12 +1092,12 @@ F 3 "" H 4900 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 5700 4550 5700
-Wire Wire Line
 	4250 5800 4550 5800
-Text Label 4550 5700 2    50   ~ 0
-SDA
+Wire Wire Line
+	4250 5700 4550 5700
 Text Label 4550 5800 2    50   ~ 0
+SDA
+Text Label 4550 5700 2    50   ~ 0
 SCL
 $Comp
 L power:+3V3 #PWR0101
@@ -1124,13 +1125,13 @@ $Comp
 L Switch:SW_SPDT SW1
 U 1 1 5ED773D8
 P 4300 1900
-F 0 "SW1" H 4300 2185 50  0000 C CNN
-F 1 "JS102011JAQN" H 4300 2094 50  0000 C CNN
+F 0 "SW1" H 4300 1650 50  0000 C CNN
+F 1 "JS102011JAQN" H 4300 1750 50  0000 C CNN
 F 2 "local:JS102011JAQN" H 4300 1900 50  0001 C CNN
 F 3 "" H 4300 1900 50  0001 C CNN
 F 4 "JS102011JAQN" H 4300 1900 50  0001 C CNN "MPN"
 	1    4300 1900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4050 1900 4100 1900
