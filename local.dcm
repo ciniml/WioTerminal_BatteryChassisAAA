@@ -20,7 +20,12 @@ K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
 $ENDCMP
 #
-$CMP INA219
+$CMP INA219AID
+D INA219 Zero Drift Bi-Directional Current/Power Monitor
+K Current,Power,I2C
+$ENDCMP
+#
+$CMP INA219AIDCN
 D INA219 Zero Drift Bi-Directional Current/Power Monitor
 K Current,Power,I2C
 $ENDCMP
