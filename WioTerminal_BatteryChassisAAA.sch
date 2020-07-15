@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:WioTerminal_BatteryChassisAAA-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "M5Stack FPGA Stack"
-Date "2020-04-29"
-Rev "Rev.C"
+Title "WioTerminal Battery Chassis AAA"
+Date "2020-07-16"
+Rev "Rev.B"
 Comp "Kenta IDA"
 Comment1 ""
 Comment2 ""
